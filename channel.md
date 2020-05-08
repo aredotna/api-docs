@@ -23,12 +23,12 @@
     <tr>
       <td><b>published</b></td>
       <td>(Boolean)</td>
-      <td>If channel is visible to all members of arena or not</td>
+      <td>If channel is visible to all members of Are.na or not</td>
     </tr>
     <tr>
       <td><b>open</b></td>
       <td>(Boolean)</td>
-      <td>If channel is open to other members of arena for adding blocks</td>
+      <td>If channel is open to other members of Are.na for adding blocks</td>
     </tr>
     <tr>
       <td><b>collaboration</b></td>
@@ -40,7 +40,7 @@
       <td>(String)</td>
       <td>
         The slug of the channel used in the url (e.g.
-        http://are.na/arena-influences)
+        http://are.na/Are.na-influences)
       </td>
     </tr>
     <tr>
