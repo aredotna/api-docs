@@ -1,14 +1,15 @@
 <table>
   <tbody>
     <tr>
-      <td><strong>id</strong></td>
+      <td><b>id</b></td>
+
       <td>(Integer)</td>
 
       <td>The internal ID of the channel</td>
     </tr>
 
     <tr>
-      <td><strong>title</strong></td>
+      <td><b>title</b></td>
 
       <td>(String)</td>
 
@@ -16,7 +17,7 @@
     </tr>
 
     <tr>
-      <td><strong>created_at</strong></td>
+      <td><b>created_at</b></td>
 
       <td>(Timestamp)</td>
 
@@ -24,7 +25,7 @@
     </tr>
 
     <tr>
-      <td><strong>updated_at</strong></td>
+      <td><b>updated_at</b></td>
 
       <td>(Timestamp)</td>
 
@@ -32,7 +33,7 @@
     </tr>
 
     <tr>
-      <td><strong>published</strong></td>
+      <td><b>published</b></td>
 
       <td>(Boolean)</td>
 
@@ -40,7 +41,7 @@
     </tr>
 
     <tr>
-      <td><strong>open</strong></td>
+      <td><b>open</b></td>
 
       <td>(Boolean)</td>
 
@@ -48,7 +49,7 @@
     </tr>
 
     <tr>
-      <td><strong>collaboration</strong></td>
+      <td><b>collaboration</b></td>
 
       <td>(Boolean)</td>
 
@@ -56,7 +57,7 @@
     </tr>
 
     <tr>
-      <td><strong>slug</strong></td>
+      <td><b>slug</b></td>
 
       <td>(String)</td>
 
@@ -67,7 +68,7 @@
     </tr>
 
     <tr>
-      <td><strong>length</strong></td>
+      <td><b>length</b></td>
 
       <td>(Integer)</td>
 
@@ -75,7 +76,7 @@
     </tr>
 
     <tr>
-      <td><strong>kind</strong></td>
+      <td><b>kind</b></td>
 
       <td>(String)</td>
 
@@ -86,7 +87,7 @@
     </tr>
 
     <tr>
-      <td><strong>status</strong></td>
+      <td><b>status</b></td>
 
       <td>(String)</td>
 
@@ -99,7 +100,7 @@
     </tr>
 
     <tr>
-      <td><strong>user_id</strong></td>
+      <td><b>user_id</b></td>
 
       <td>(Integer)</td>
 
@@ -107,7 +108,7 @@
     </tr>
 
     <tr>
-      <td><strong>class</strong></td>
+      <td><b>class</b></td>
 
       <td>(String)</td>
 
@@ -115,7 +116,7 @@
     </tr>
 
     <tr>
-      <td><strong>base_class</strong></td>
+      <td><b>base_class</b></td>
 
       <td>(String)</td>
 
@@ -123,7 +124,7 @@
     </tr>
 
     <tr>
-      <td><strong>user</strong></td>
+      <td><b>user</b></td>
 
       <td>(Hash)</td>
 
@@ -136,7 +137,7 @@
     </tr>
 
     <tr>
-      <td><strong>total_pages</strong></td>
+      <td><b>total_pages</b></td>
 
       <td>(Integer)</td>
 
@@ -146,7 +147,7 @@
     </tr>
 
     <tr>
-      <td><strong>current_page</strong></td>
+      <td><b>current_page</b></td>
 
       <td>(Integer)</td>
 
@@ -154,7 +155,7 @@
     </tr>
 
     <tr>
-      <td><strong>per</strong></td>
+      <td><b>per</b></td>
 
       <td>(Integer)</td>
 
@@ -162,7 +163,7 @@
     </tr>
 
     <tr>
-      <td><strong>follower_count</strong></td>
+      <td><b>follower_count</b></td>
 
       <td>(Integer)</td>
 
@@ -170,21 +171,20 @@
     </tr>
 
     <tr>
-      <td><strong>contents</strong></td>
+      <td><b>contents</b></td>
 
       <td>(Array, can be null)</td>
 
       <td>
-        Array of blocks and other channels in the channel.
-        <strong>Note:</strong> If the request is authenticated, this will
-        include any private channels included in the requested channel that you
-        have access to. If not, only public channels included in the requested
-        channel will be shown.
+        Array of blocks and other channels in the channel. <b>Note:</b> If the
+        request is authenticated, this will include any private channels
+        included in the requested channel that you have access to. If not, only
+        public channels included in the requested channel will be shown.
       </td>
     </tr>
 
     <tr>
-      <td><strong>collaborators</strong></td>
+      <td><b>collaborators</b></td>
 
       <td>(Array, can be null)</td>
 
