@@ -1,3 +1,8 @@
+# Introduction 
+
+Channels are organizational structures for content. This means blocks but also sometimes other channels. Channels have a primary user (indicated by the user_id) but can also have collaborators (an array of users). Channels can be public (anyone can view and add), closed (only the channel's author and collaborators can add but everyone can view) and private (only the channels authors and collaborators can view and add).
+
+
 <table>
   <tbody>
     <tr>
