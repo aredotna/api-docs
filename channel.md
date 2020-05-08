@@ -138,4 +138,45 @@ Channels are organizational structures for content. This means blocks but also s
   </tbody>
 </table>
 
+Blocks inside the channel's contents node have attributes that are specific to
+the channel:
+
+<table>
+  <tr>
+    <td><b>position</b></td>
+    <td>(Integer)</td>
+    <td>
+      The position of the block inside the channel (as determined by the
+      channel's author and collaborators)
+    </td>
+  </tr>
+  <tr>
+    <td><b>selected</b></td>
+    <td>(Boolean)</td>
+    <td>
+      Block is marked as selected inside the channel (this is an initial attempt
+      to allow users to "feature" some content over others, can be used for
+      moderation, introduction text, etc)
+    </td>
+  </tr>
+  <tr>
+    <td><b>connected_at</b></td>
+    <td>(Timestamp)</td>
+    <td>
+      Time when block was connected to the channel (if the block was created at
+      the same time as the channel this will be identical to
+      <em>created_at</em>)
+    </td>
+  </tr>
+  <tr>
+    <td><b>connected_by_user_id</b></td>
+    <td>(Integer)</td>
+    <td>
+      ID of the user who connected the block to the channel (if the block was
+      not reused by another user, this will be identical to <em>user_id</em>)
+    </td>
+  </tr>
+</table>
+
+
 ### Endpoints
